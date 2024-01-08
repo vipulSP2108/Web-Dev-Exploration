@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* white --> rgb(255 255 255) */
+    /* green --> rgb(37 99 235) */
+    /* blue  --> rgb(34 197 94) */
+    --text-color1: rgb(255 255 255);
+    --text-size: 5rem;
+  }
