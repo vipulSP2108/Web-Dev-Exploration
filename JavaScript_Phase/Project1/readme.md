@@ -1,4 +1,4 @@
-# Color Changing Rectangle
+# Cursor following Rectangle (x axis)
 
 Part 1 : At the beginning our rectangle must be on center but as we move cursor to left or right the rectangle must also move to left or right
 
