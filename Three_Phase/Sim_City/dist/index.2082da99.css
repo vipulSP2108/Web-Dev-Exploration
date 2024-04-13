@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+#rootwindow {
+  opacity: .9;
+  background-color: #555;
+  width: 18%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+}
+
+#toolbar {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 98%;
+  margin-top: 5%;
+  display: flex;
+}
+
+.toolbar-button {
+  color: #f4f4f4;
+  background-color: #3d3d3d;
+  border-style: solid;
+  border-color: #040404;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: 88%;
+  height: 7%;
+  margin: 3%;
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+}
+
+.toolbar-button-text {
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+
+.toolbar-button-image {
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+  display: flex;
+}
+
+#information {
+  justify-content: center;
+  align-items: center;
+  height: 35%;
+  display: flex;
+}
+
+.toolbar-button.selected {
+  background-color: #000;
+}
+
+.toolbar-button:not(.selected):hover {
+  background-color: #202020;
+  border-color: #f4f4f4;
+  transition: transform .3s;
+  transform: scale(1.06);
+}
+
+/*# sourceMappingURL=index.2082da99.css.map */
